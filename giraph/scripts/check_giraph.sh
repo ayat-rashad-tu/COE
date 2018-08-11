@@ -2,7 +2,7 @@
 export job_id=$1
 export attempt_id=$2
 
-if [! -z $3] 
+if [ ! -z $3 ] 
 then
 	export n=$3 
 else

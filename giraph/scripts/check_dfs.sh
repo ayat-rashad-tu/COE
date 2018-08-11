@@ -3,16 +3,14 @@
 
 printf "DATANODE LOGS: \n"
 tail -n 50 $HADOOP_HOME/logs/hadoop-hduser-datanode-ip-172-31-54-48.log
-#tail -n 50 $HADOOP_HOME/logs/hadoop-hduser-datanode-ip-172-31-54-48.out
 
 printf "\n\n\n"
 printf "YARN LOGS..RM: \n"
 tail -n 50 $HADOOP_HOME/logs/yarn-hduser-resourcemanager-ip-172-31-54-48.log
-#tail -n 50 $HADOOP_HOME/logs/yarn-hduser-resourcemanager-ip-172-31-54-48.out
 
 printf "\n\n\n"
 printf "YARN LOGS..NM: \n"
 tail -n 50 $HADOOP_HOME/logs/yarn-hduser-nodemanager-ip-172-31-54-48.log
-#tail -n 50 $HADOOP_HOME/logs/yarn-hduser-nodemanager-ip-172-31-54-48.out
+
 
 
