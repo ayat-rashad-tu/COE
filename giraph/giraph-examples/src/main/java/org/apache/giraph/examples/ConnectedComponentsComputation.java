@@ -5,6 +5,7 @@ import org.apache.giraph.edge.Edge;
 import org.apache.giraph.graph.Vertex;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.LongWritable;
 
 import java.io.IOException;
 
@@ -29,7 +30,7 @@ import java.io.IOException;
     description = "Finds connected components of the graph"
 )
 public class ConnectedComponentsComputation extends
-    BasicComputation<IntWritable, IntWritable, NullWritable, IntWritable> {
+    BasicComputation<LongWritable, LongWritable, NullWritable, LongWritable> {
   /**
    * Propagates the smallest vertex id to all neighbors. Will always choose to
    * halt and only reactivate if a smaller id has been sent to it.
@@ -40,23 +41,23 @@ public class ConnectedComponentsComputation extends
    */
   @Override
   public void compute(
-      Vertex<IntWritable, IntWritable, NullWritable> vertex,
-      Iterable<IntWritable> messages) throws IOException {
-    int currentComponent = vertex.getValue().get();
+      Vertex<LongWritable, LongWritable, NullWritable> vertex,
+      Iterable<LongWritable> messages) throws IOException {
+    long currentComponent = vertex.getValue().get();
 
     // First superstep is special, because we can simply look at the neighbors
     if (getSuperstep() == 0) {
-      for (Edge<IntWritable, NullWritable> edge : vertex.getEdges()) {
-        int neighbor = edge.getTargetVertexId().get();
+      for (Edge<LongWritable, NullWritable> edge : vertex.getEdges()) {
+        long neighbor = edge.getTargetVertexId().get();
         if (neighbor < currentComponent) {
           currentComponent = neighbor;
         }
       }
       // Only need to send value if it is not the own id
       if (currentComponent != vertex.getValue().get()) {
-        vertex.setValue(new IntWritable(currentComponent));
-        for (Edge<IntWritable, NullWritable> edge : vertex.getEdges()) {
-          IntWritable neighbor = edge.getTargetVertexId();
+        vertex.setValue(new LongWritable(currentComponent));
+        for (Edge<LongWritable, NullWritable> edge : vertex.getEdges()) {
+          LongWritable neighbor = edge.getTargetVertexId();
           if (neighbor.get() > currentComponent) {
             sendMessage(neighbor, vertex.getValue());
           }
@@ -69,8 +70,8 @@ public class ConnectedComponentsComputation extends
 
     boolean changed = false;
     // did we get a smaller id ?
-    for (IntWritable message : messages) {
-      int candidateComponent = message.get();
+    for (LongWritable message : messages) {
+      long candidateComponent = message.get();
       if (candidateComponent < currentComponent) {
         currentComponent = candidateComponent;
         changed = true;
@@ -79,7 +80,7 @@ public class ConnectedComponentsComputation extends
 
     // propagate new component id to the neighbors
     if (changed) {
-      vertex.setValue(new IntWritable(currentComponent));
+      vertex.setValue(new LongWritable(currentComponent));
       sendMessageToAllEdges(vertex, vertex.getValue());
     }
     vertex.voteToHalt();

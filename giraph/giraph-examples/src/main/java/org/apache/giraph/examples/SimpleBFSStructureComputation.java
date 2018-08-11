@@ -6,6 +6,7 @@ import org.apache.giraph.conf.LongConfOption;
 import org.apache.giraph.edge.Edge;
 import org.apache.giraph.graph.Vertex;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.log4j.Logger;
 
@@ -15,7 +16,7 @@ import java.io.IOException;
 @Algorithm(name = "Breadth First Search Structural oriented", description = "Uses Breadth First Search from a source vertex to calculate depths")
 public class SimpleBFSStructureComputation
 		extends
-		BasicComputation<IntWritable, IntWritable, NullWritable, IntWritable> {
+		BasicComputation<LongWritable, LongWritable, NullWritable, LongWritable> {
 	/**
 	 * Define a maximum number of supersteps
 	 */
@@ -25,7 +26,7 @@ public class SimpleBFSStructureComputation
 	 * Indicates the first vertex to be computed in superstep 0.
 	 */
 	public static final LongConfOption START_ID = new LongConfOption(
-			"SimpleBFSComputation.START_ID", 8,
+			"SimpleBFSComputation.START_ID", 147,
 			"Is the first vertex to be computed");
 
 	/** Class logger */
@@ -38,7 +39,7 @@ public class SimpleBFSStructureComputation
 	 * @param vertex
 	 * @return true if analysed node is the start vertex
 	 */
-	private boolean isStart(Vertex<IntWritable, ?, ?> vertex) {
+	private boolean isStart(Vertex<LongWritable, ?, ?> vertex) {
 		return vertex.getId().get() == START_ID.get(getConf());
 	}
 
@@ -50,16 +51,16 @@ public class SimpleBFSStructureComputation
 	 * @param vertex
 	 */
 	public void BFSMessages(
-			Vertex<IntWritable, IntWritable, NullWritable> vertex) {
-		for (Edge<IntWritable, NullWritable> edge : vertex.getEdges()) {
-			sendMessage(edge.getTargetVertexId(), new IntWritable(1));
+			Vertex<LongWritable, LongWritable, NullWritable> vertex) {
+		for (Edge<LongWritable, NullWritable> edge : vertex.getEdges()) {
+			sendMessage(edge.getTargetVertexId(), new LongWritable(1));
 		}
 	}
 
 	@Override
 	public void compute(
-			Vertex<IntWritable, IntWritable, NullWritable> vertex,
-			Iterable<IntWritable> messages) throws IOException {
+			Vertex<LongWritable, LongWritable, NullWritable> vertex,
+			Iterable<LongWritable> messages) throws IOException {
 
 		// Forces convergence in maximum superstep
 		if (!(getSuperstep() == MAX_SUPERSTEPS)) {
@@ -68,13 +69,13 @@ public class SimpleBFSStructureComputation
 			// messages.
 			if (getSuperstep() == 0) {
 				if (isStart(vertex)) {
-					vertex.setValue(new IntWritable((int)getSuperstep()));
+					vertex.setValue(new LongWritable((long)getSuperstep()));
 					BFSMessages(vertex);
 					if (LOG.isInfoEnabled()) {
 						LOG.info("[Start Vertex] Vertex ID: " + vertex.getId());
 					}
 				} else { // Initialise with infinite depth other vertex
-					vertex.setValue(new IntWritable(Integer.MAX_VALUE));
+					vertex.setValue(new LongWritable(Long.MAX_VALUE));
 				}
 			}
 
@@ -83,9 +84,9 @@ public class SimpleBFSStructureComputation
 
 			else {
 				// It is the first time that this vertex is being computed
-				if (vertex.getValue().get() == Integer.MAX_VALUE) {
+				if (vertex.getValue().get() == Long.MAX_VALUE) {
 					// The depth has the same value that the superstep
-					vertex.setValue(new IntWritable((int)getSuperstep()));
+					vertex.setValue(new LongWritable((long)getSuperstep()));
 					// Continue on the structure
 					BFSMessages(vertex);
 				}
