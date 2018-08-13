@@ -1,0 +1,51 @@
+#job_1533659495343_0005
+
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	7168634	0	7168634
+Aggregate finished vertices	1165851	0	1165851
+Aggregate sent message bytes	428792466	0	428792466
+Aggregate sent messages	53595450	0	53595450
+Aggregate vertices	1165851	0	1165851
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	24	0	24
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	174	0	174
+Input superstep (ms)	5152	0	5152
+Setup (ms)	17	0	17
+Shutdown (ms)	9817	0	9817
+Superstep 0 ConnectedComponentsComputation (ms)	2801	0	2801
+Superstep 1 ConnectedComponentsComputation (ms)	2244	0	2244
+Superstep 10 ConnectedComponentsComputation (ms)	593	0	593
+Superstep 11 ConnectedComponentsComputation (ms)	529	0	529
+Superstep 12 ConnectedComponentsComputation (ms)	316	0	316
+Superstep 13 ConnectedComponentsComputation (ms)	197	0	197
+Superstep 14 ConnectedComponentsComputation (ms)	574	0	574
+Superstep 15 ConnectedComponentsComputation (ms)	155	0	155
+Superstep 16 ConnectedComponentsComputation (ms)	143	0	143
+Superstep 17 ConnectedComponentsComputation (ms)	148	0	148
+Superstep 18 ConnectedComponentsComputation (ms)	174	0	174
+Superstep 19 ConnectedComponentsComputation (ms)	131	0	131
+Superstep 2 ConnectedComponentsComputation (ms)	3015	0	3015
+Superstep 20 ConnectedComponentsComputation (ms)	125	0	125
+Superstep 21 ConnectedComponentsComputation (ms)	155	0	155
+Superstep 22 ConnectedComponentsComputation (ms)	157	0	157
+Superstep 23 ConnectedComponentsComputation (ms)	139	0	139
+Superstep 3 ConnectedComponentsComputation (ms)	1717	0	1717
+Superstep 4 ConnectedComponentsComputation (ms)	1731	0	1731
+Superstep 5 ConnectedComponentsComputation (ms)	1721	0	1721
+Superstep 6 ConnectedComponentsComputation (ms)	1627	0	1627
+Superstep 7 ConnectedComponentsComputation (ms)	1377	0	1377
+Superstep 8 ConnectedComponentsComputation (ms)	1449	0	1449
+Superstep 9 ConnectedComponentsComputation (ms)	1117	0	1117
+Total (ms)	37325	0	37325
+

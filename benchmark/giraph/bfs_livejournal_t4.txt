@@ -1,0 +1,56 @@
+# job_1533829040748_0003
+
+CPU time spent (ms)	147030	0	147030
+Failed Shuffles	0	0	0
+GC time elapsed (ms)	5344	0	5344
+Input split bytes	44	0	44
+Map input records	1	0	1
+Map output records	0	0	0
+Merged Map outputs	0	0	0
+Physical memory (bytes) snapshot	9607380992	0	9607380992
+Spilled Records	0	0	0
+Total committed heap usage (bytes)	9996075008	0	9996075008
+Virtual memory (bytes) snapshot	63085064192	0	63085064192
+Giraph Stats	
+Name
+Map
+Reduce
+Total
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	86739238	0	86739238
+Aggregate finished vertices	4847571	0	4847571
+Aggregate sent message bytes	693874666	0	693874666
+Aggregate sent messages	86725500	0	86725500
+Aggregate vertices	4847571	0	4847571
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	14	0	14
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	140	0	140
+Input superstep (ms)	6626	0	6626
+Setup (ms)	17	0	17
+Shutdown (ms)	12469	0	12469
+Superstep 0 SimpleBFSStructureComputation (ms)	1178	0	1178
+Superstep 1 SimpleBFSStructureComputation (ms)	502	0	502
+Superstep 10 SimpleBFSStructureComputation (ms)	424	0	424
+Superstep 11 SimpleBFSStructureComputation (ms)	420	0	420
+Superstep 12 SimpleBFSStructureComputation (ms)	369	0	369
+Superstep 13 SimpleBFSStructureComputation (ms)	435	0	435
+Superstep 2 SimpleBFSStructureComputation (ms)	403	0	403
+Superstep 3 SimpleBFSStructureComputation (ms)	969	0	969
+Superstep 4 SimpleBFSStructureComputation (ms)	6244	0	6244
+Superstep 5 SimpleBFSStructureComputation (ms)	2317	0	2317
+Superstep 6 SimpleBFSStructureComputation (ms)	1638	0	1638
+Superstep 7 SimpleBFSStructureComputation (ms)	650	0	650
+Superstep 8 SimpleBFSStructureComputation (ms)	420	0	420
+Superstep 9 SimpleBFSStructureComputation (ms)	397	0	397
+Total (ms)	35482	0	35482

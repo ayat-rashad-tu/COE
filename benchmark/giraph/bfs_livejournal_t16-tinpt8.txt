@@ -1,0 +1,61 @@
+# job_1533829040748_0005
+
+	
+Name
+Map
+Reduce
+Total
+CPU time spent (ms)	170040	0	170040
+Failed Shuffles	0	0	0
+GC time elapsed (ms)	5676	0	5676
+Input split bytes	44	0	44
+Map input records	1	0	1
+Map output records	0	0	0
+Merged Map outputs	0	0	0
+Physical memory (bytes) snapshot	9610285056	0	9610285056
+Spilled Records	0	0	0
+Total committed heap usage (bytes)	10269753344	0	10269753344
+Virtual memory (bytes) snapshot	63091458048	0	63091458048
+Giraph Stats	
+Name
+Map
+Reduce
+Total
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	86739238	0	86739238
+Aggregate finished vertices	4847571	0	4847571
+Aggregate sent message bytes	694036181	0	694036181
+Aggregate sent messages	86725500	0	86725500
+Aggregate vertices	4847571	0	4847571
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	14	0	14
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	138	0	138
+Input superstep (ms)	8313	0	8313
+Setup (ms)	18	0	18
+Shutdown (ms)	12824	0	12824
+Superstep 0 SimpleBFSStructureComputation (ms)	1357	0	1357
+Superstep 1 SimpleBFSStructureComputation (ms)	314	0	314
+Superstep 10 SimpleBFSStructureComputation (ms)	188	0	188
+Superstep 11 SimpleBFSStructureComputation (ms)	181	0	181
+Superstep 12 SimpleBFSStructureComputation (ms)	179	0	179
+Superstep 13 SimpleBFSStructureComputation (ms)	193	0	193
+Superstep 2 SimpleBFSStructureComputation (ms)	235	0	235
+Superstep 3 SimpleBFSStructureComputation (ms)	758	0	758
+Superstep 4 SimpleBFSStructureComputation (ms)	1656	0	1656
+Superstep 5 SimpleBFSStructureComputation (ms)	3286	0	3286
+Superstep 6 SimpleBFSStructureComputation (ms)	434	0	434
+Superstep 7 SimpleBFSStructureComputation (ms)	232	0	232
+Superstep 8 SimpleBFSStructureComputation (ms)	204	0	204
+Superstep 9 SimpleBFSStructureComputation (ms)	170	0	170
+Total (ms)	30545	0	30545

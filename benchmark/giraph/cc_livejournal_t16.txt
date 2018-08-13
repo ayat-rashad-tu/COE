@@ -1,0 +1,54 @@
+# job_1533829040748_0009
+
+CPU time spent (ms)	287760	0	287760
+Failed Shuffles	0	0	0
+GC time elapsed (ms)	8560	0	8560
+Input split bytes	44	0	44
+Map input records	1	0	1
+Map output records	0	0	0
+Merged Map outputs	0	0	0
+Physical memory (bytes) snapshot	12307836928	0	12307836928
+Spilled Records	0	0	0
+Total committed heap usage (bytes)	13087801344	0	13087801344
+Virtual memory (bytes) snapshot	63083433984	0	63083433984
+Giraph Stats	
+Name
+Map
+Reduce
+Total
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	86739238	0	86739238
+Aggregate finished vertices	4847571	0	4847571
+Aggregate sent message bytes	2489596124	0	2489596124
+Aggregate sent messages	311102535	0	311102535
+Aggregate vertices	4847571	0	4847571
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	12	0	12
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	143	0	143
+Input superstep (ms)	7024	0	7024
+Setup (ms)	18	0	18
+Shutdown (ms)	12905	0	12905
+Superstep 0 ConnectedComponentsComputation (ms)	5144	0	5144
+Superstep 1 ConnectedComponentsComputation (ms)	5269	0	5269
+Superstep 10 ConnectedComponentsComputation (ms)	186	0	186
+Superstep 11 ConnectedComponentsComputation (ms)	184	0	184
+Superstep 2 ConnectedComponentsComputation (ms)	2696	0	2696
+Superstep 3 ConnectedComponentsComputation (ms)	2236	0	2236
+Superstep 4 ConnectedComponentsComputation (ms)	657	0	657
+Superstep 5 ConnectedComponentsComputation (ms)	337	0	337
+Superstep 6 ConnectedComponentsComputation (ms)	193	0	193
+Superstep 7 ConnectedComponentsComputation (ms)	176	0	176
+Superstep 8 ConnectedComponentsComputation (ms)	164	0	164
+Superstep 9 ConnectedComponentsComputation (ms)	180	0	180
+Total (ms)	37372	0	37372

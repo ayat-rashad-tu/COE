@@ -1,0 +1,73 @@
+start,stop,query,run,cpu,io,ship,tuples,RAM,Virtual
+2018-08-12 22:23:32,2018-08-12 22:23:41,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",9192091,30,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:23:41,2018-08-12 22:23:50,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",8535732,30,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:23:50,2018-08-12 22:23:59,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",8475010,32,0,2,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:24:00,2018-08-12 22:24:08,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",8714064,30,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:24:09,2018-08-12 22:24:17,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",8350012,31,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:24:18,2018-08-12 22:24:26,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",8201836,33,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:24:26,2018-08-12 22:24:34,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",7945865,31,0,1,1,3381.2909264705886,4883.327573529412
+2018-08-12 22:24:34,2018-08-12 22:24:41,"update node_c set cc=v_tmp.cc from 
+ (
+ select v1.node_id, min(v2.cc) as cc 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ group by v1.node_id, v1.cc
+ having min(v2.cc) < v1.cc
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id ;",6733057,32,0,2,1,3381.2909264705886,4883.327573529412

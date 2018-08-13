@@ -1,0 +1,72 @@
+#job_1533659495343_0011
+
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	14487564	0	14487564
+Aggregate finished vertices	2814167	0	2814167
+Aggregate sent message bytes	99423755	0	99423755
+Aggregate sent messages	12426872	0	12426872
+Aggregate vertices	2814167	0	2814167
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	46	0	46
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	156	0	156
+Input superstep (ms)	18978	0	18978
+Setup (ms)	30	0	30
+Shutdown (ms)	10787	0	10787
+Superstep 0 SimpleBFSStructureComputation (ms)	936	0	936
+Superstep 1 SimpleBFSStructureComputation (ms)	1025	0	1025
+Superstep 10 SimpleBFSStructureComputation (ms)	353	0	353
+Superstep 11 SimpleBFSStructureComputation (ms)	731	0	731
+Superstep 12 SimpleBFSStructureComputation (ms)	454	0	454
+Superstep 13 SimpleBFSStructureComputation (ms)	581	0	581
+Superstep 14 SimpleBFSStructureComputation (ms)	1219	0	1219
+Superstep 15 SimpleBFSStructureComputation (ms)	886	0	886
+Superstep 16 SimpleBFSStructureComputation (ms)	1523	0	1523
+Superstep 17 SimpleBFSStructureComputation (ms)	1498	0	1498
+Superstep 18 SimpleBFSStructureComputation (ms)	3902	0	3902
+Superstep 19 SimpleBFSStructureComputation (ms)	498	0	498
+Superstep 2 SimpleBFSStructureComputation (ms)	360	0	360
+Superstep 20 SimpleBFSStructureComputation (ms)	415	0	415
+Superstep 21 SimpleBFSStructureComputation (ms)	466	0	466
+Superstep 22 SimpleBFSStructureComputation (ms)	340	0	340
+Superstep 23 SimpleBFSStructureComputation (ms)	333	0	333
+Superstep 24 SimpleBFSStructureComputation (ms)	418	0	418
+Superstep 25 SimpleBFSStructureComputation (ms)	784	0	784
+Superstep 26 SimpleBFSStructureComputation (ms)	320	0	320
+Superstep 27 SimpleBFSStructureComputation (ms)	310	0	310
+Superstep 28 SimpleBFSStructureComputation (ms)	1210	0	1210
+Superstep 29 SimpleBFSStructureComputation (ms)	375	0	375
+Superstep 3 SimpleBFSStructureComputation (ms)	371	0	371
+Superstep 30 SimpleBFSStructureComputation (ms)	336	0	336
+Superstep 31 SimpleBFSStructureComputation (ms)	322	0	322
+Superstep 32 SimpleBFSStructureComputation (ms)	294	0	294
+Superstep 33 SimpleBFSStructureComputation (ms)	295	0	295
+Superstep 34 SimpleBFSStructureComputation (ms)	538	0	538
+Superstep 35 SimpleBFSStructureComputation (ms)	351	0	351
+Superstep 36 SimpleBFSStructureComputation (ms)	388	0	388
+Superstep 37 SimpleBFSStructureComputation (ms)	296	0	296
+Superstep 38 SimpleBFSStructureComputation (ms)	291	0	291
+Superstep 39 SimpleBFSStructureComputation (ms)	357	0	357
+Superstep 4 SimpleBFSStructureComputation (ms)	353	0	353
+Superstep 40 SimpleBFSStructureComputation (ms)	308	0	308
+Superstep 41 SimpleBFSStructureComputation (ms)	335	0	335
+Superstep 42 SimpleBFSStructureComputation (ms)	314	0	314
+Superstep 43 SimpleBFSStructureComputation (ms)	304	0	304
+Superstep 44 SimpleBFSStructureComputation (ms)	291	0	291
+Superstep 45 SimpleBFSStructureComputation (ms)	797	0	797
+Superstep 5 SimpleBFSStructureComputation (ms)	347	0	347
+Superstep 6 SimpleBFSStructureComputation (ms)	370	0	370
+Superstep 7 SimpleBFSStructureComputation (ms)	387	0	387
+Superstep 8 SimpleBFSStructureComputation (ms)	395	0	395
+Superstep 9 SimpleBFSStructureComputation (ms)	560	0	560
+Total (ms)	57344	0	57344

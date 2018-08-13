@@ -1,0 +1,97 @@
+start,stop,query,run,cpu,io,ship,tuples,RAM,Virtual
+2018-08-12 22:07:57,2018-08-12 22:07:58,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",1444693,15,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:07:58,2018-08-12 22:08:00,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",1347154,17,0,2,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:00,2018-08-12 22:08:01,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",1624151,18,0,2,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:02,2018-08-12 22:08:03,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",1679495,18,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:06,2018-08-12 22:08:07,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",962818,18,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:08,2018-08-12 22:08:09,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",634743,18,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:09,2018-08-12 22:08:09,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",473108,20,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:09,2018-08-12 22:08:10,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",398566,21,0,1,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:10,2018-08-12 22:08:10,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",432835,21,0,2,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:10,2018-08-12 22:08:10,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",423495,19,0,2,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:10,2018-08-12 22:08:11,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",389919,17,0,2,1,872.2471428571428,1507.446142857143
+2018-08-12 22:08:11,2018-08-12 22:08:11,"update node_c set dist=v_tmp.dist from 
+ (
+ select v1.node_id, v2.dist+1 as dist 
+ from node_c as v1, edge_c as e, node_c as v2
+ where v1.node_id = e.dst and v2.node_id = e.src
+ and v1.dist = -1 and v2.dist > -1
+ ) as v_tmp
+ where node_c.node_id = v_tmp.node_id;",347800,18,0,1,1,872.2471428571428,1507.446142857143

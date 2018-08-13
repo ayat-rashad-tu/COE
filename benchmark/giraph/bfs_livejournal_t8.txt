@@ -1,0 +1,55 @@
+#job_1533829040748_0002
+#CPU time spent (ms)	152370	0	152370
+Failed Shuffles	0	0	0
+GC time elapsed (ms)	4920	0	4920
+Input split bytes	44	0	44
+Map input records	1	0	1
+Map output records	0	0	0
+Merged Map outputs	0	0	0
+Physical memory (bytes) snapshot	9770754048	0	9770754048
+Spilled Records	0	0	0
+Total committed heap usage (bytes)	10369892352	0	10369892352
+Virtual memory (bytes) snapshot	63084560384	0	63084560384
+Giraph Stats	
+Name
+Map
+Reduce
+Total
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	86739238	0	86739238
+Aggregate finished vertices	4847571	0	4847571
+Aggregate sent message bytes	693926156	0	693926156
+Aggregate sent messages	86725500	0	86725500
+Aggregate vertices	4847571	0	4847571
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	14	0	14
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	137	0	137
+Input superstep (ms)	6766	0	6766
+Setup (ms)	18	0	18
+Shutdown (ms)	12494	0	12494
+Superstep 0 SimpleBFSStructureComputation (ms)	1328	0	1328
+Superstep 1 SimpleBFSStructureComputation (ms)	380	0	380
+Superstep 10 SimpleBFSStructureComputation (ms)	253	0	253
+Superstep 11 SimpleBFSStructureComputation (ms)	263	0	263
+Superstep 12 SimpleBFSStructureComputation (ms)	658	0	658
+Superstep 13 SimpleBFSStructureComputation (ms)	259	0	259
+Superstep 2 SimpleBFSStructureComputation (ms)	272	0	272
+Superstep 3 SimpleBFSStructureComputation (ms)	562	0	562
+Superstep 4 SimpleBFSStructureComputation (ms)	4590	0	4590
+Superstep 5 SimpleBFSStructureComputation (ms)	1452	0	1452
+Superstep 6 SimpleBFSStructureComputation (ms)	1029	0	1029
+Superstep 7 SimpleBFSStructureComputation (ms)	748	0	748
+Superstep 8 SimpleBFSStructureComputation (ms)	241	0	241
+Superstep 9 SimpleBFSStructureComputation (ms)	255	0	255
+Total (ms)	31572	0	31572

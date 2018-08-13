@@ -1,0 +1,72 @@
+#job_1533659495343_0010
+
+
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	8859230	0	8859230
+Aggregate finished vertices	2814167	0	2814167
+Aggregate sent message bytes	681715906	0	681715906
+Aggregate sent messages	85208719	0	85208719
+Aggregate vertices	2814167	0	2814167
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	45	0	45
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	168	0	168
+Input superstep (ms)	10077	0	10077
+Setup (ms)	21	0	21
+Shutdown (ms)	11098	0	11098
+Superstep 0 ConnectedComponentsComputation (ms)	5891	0	5891
+Superstep 1 ConnectedComponentsComputation (ms)	2966	0	2966
+Superstep 10 ConnectedComponentsComputation (ms)	2426	0	2426
+Superstep 11 ConnectedComponentsComputation (ms)	2659	0	2659
+Superstep 12 ConnectedComponentsComputation (ms)	4679	0	4679
+Superstep 13 ConnectedComponentsComputation (ms)	2340	0	2340
+Superstep 14 ConnectedComponentsComputation (ms)	2128	0	2128
+Superstep 15 ConnectedComponentsComputation (ms)	2433	0	2433
+Superstep 16 ConnectedComponentsComputation (ms)	4205	0	4205
+Superstep 17 ConnectedComponentsComputation (ms)	1493	0	1493
+Superstep 18 ConnectedComponentsComputation (ms)	1190	0	1190
+Superstep 19 ConnectedComponentsComputation (ms)	661	0	661
+Superstep 2 ConnectedComponentsComputation (ms)	5728	0	5728
+Superstep 20 ConnectedComponentsComputation (ms)	494	0	494
+Superstep 21 ConnectedComponentsComputation (ms)	627	0	627
+Superstep 22 ConnectedComponentsComputation (ms)	399	0	399
+Superstep 23 ConnectedComponentsComputation (ms)	363	0	363
+Superstep 24 ConnectedComponentsComputation (ms)	338	0	338
+Superstep 25 ConnectedComponentsComputation (ms)	345	0	345
+Superstep 26 ConnectedComponentsComputation (ms)	402	0	402
+Superstep 27 ConnectedComponentsComputation (ms)	328	0	328
+Superstep 28 ConnectedComponentsComputation (ms)	475	0	475
+Superstep 29 ConnectedComponentsComputation (ms)	376	0	376
+Superstep 3 ConnectedComponentsComputation (ms)	2677	0	2677
+Superstep 30 ConnectedComponentsComputation (ms)	356	0	356
+Superstep 31 ConnectedComponentsComputation (ms)	317	0	317
+Superstep 32 ConnectedComponentsComputation (ms)	328	0	328
+Superstep 33 ConnectedComponentsComputation (ms)	409	0	409
+Superstep 34 ConnectedComponentsComputation (ms)	307	0	307
+Superstep 35 ConnectedComponentsComputation (ms)	474	0	474
+Superstep 36 ConnectedComponentsComputation (ms)	303	0	303
+Superstep 37 ConnectedComponentsComputation (ms)	383	0	383
+Superstep 38 ConnectedComponentsComputation (ms)	292	0	292
+Superstep 39 ConnectedComponentsComputation (ms)	335	0	335
+Superstep 4 ConnectedComponentsComputation (ms)	2844	0	2844
+Superstep 40 ConnectedComponentsComputation (ms)	312	0	312
+Superstep 41 ConnectedComponentsComputation (ms)	504	0	504
+Superstep 42 ConnectedComponentsComputation (ms)	324	0	324
+Superstep 43 ConnectedComponentsComputation (ms)	311	0	311
+Superstep 44 ConnectedComponentsComputation (ms)	309	0	309
+Superstep 5 ConnectedComponentsComputation (ms)	5018	0	5018
+Superstep 6 ConnectedComponentsComputation (ms)	2557	0	2557
+Superstep 7 ConnectedComponentsComputation (ms)	5371	0	5371
+Superstep 8 ConnectedComponentsComputation (ms)	2568	0	2568
+Superstep 9 ConnectedComponentsComputation (ms)	5436	0	5436
+Total (ms)	95881	0	95881

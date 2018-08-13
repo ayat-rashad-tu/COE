@@ -1,0 +1,51 @@
+# job_1533988006117_0003
+
+CPU time spent (ms)	243090	0	243090
+Failed Shuffles	0	0	0
+GC time elapsed (ms)	7227	0	7227
+Input split bytes	44	0	44
+Map input records	1	0	1
+Map output records	0	0	0
+Merged Map outputs	0	0	0
+Physical memory (bytes) snapshot	16625258496	0	16625258496
+Spilled Records	0	0	0
+Total committed heap usage (bytes)	18362138624	0	18362138624
+Virtual memory (bytes) snapshot	63087685632	0	63087685632
+Giraph Stats	
+Name
+Map
+Reduce
+Total
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	234370166	0	234370166
+Aggregate finished vertices	3072441	0	3072441
+Aggregate sent message bytes	3750166189	0	3750166189
+Aggregate sent messages	234370166	0	234370166
+Aggregate vertices	3072441	0	3072441
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	9	0	9
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	138	0	138
+Input superstep (ms)	10475	0	10475
+Setup (ms)	18	0	18
+Shutdown (ms)	11644	0	11644
+Superstep 0 SimpleBFSStructureComputation (ms)	1004	0	1004
+Superstep 1 SimpleBFSStructureComputation (ms)	486	0	486
+Superstep 2 SimpleBFSStructureComputation (ms)	638	0	638
+Superstep 3 SimpleBFSStructureComputation (ms)	7713	0	7713
+Superstep 4 SimpleBFSStructureComputation (ms)	20738	0	20738
+Superstep 5 SimpleBFSStructureComputation (ms)	5165	0	5165
+Superstep 6 SimpleBFSStructureComputation (ms)	851	0	851
+Superstep 7 SimpleBFSStructureComputation (ms)	380	0	380
+Superstep 8 SimpleBFSStructureComputation (ms)	381	0	381
+Total (ms)	59497	0	59497

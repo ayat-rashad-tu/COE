@@ -1,0 +1,41 @@
+Aggregate bytes loaded from local disks (out-of-core)	0	0	0
+Aggregate bytes stored to local disks (out-of-core)	0	0	0
+Aggregate edges	6110914	0	6110914
+Aggregate finished vertices	475230	0	475230
+Aggregate sent message bytes	47721078	0	47721078
+Aggregate sent messages	5964646	0	5964646
+Aggregate vertices	475230	0	475230
+Current master task partition	0	0	0
+Current workers	1	0	1
+Last checkpointed superstep	0	0	0
+Lowest percentage of graph in memory so far (out-of-core)	100	0	100
+Sent message bytes	0	0	0
+Sent messages	0	0	0
+Superstep	17	0	17
+Giraph Timers	
+Name
+Map
+Reduce
+Total
+Initialize (ms)	151	0	151
+Input superstep (ms)	2782	0	2782
+Setup (ms)	16	0	16
+Shutdown (ms)	9329	0	9329
+Superstep 0 SimpleBFSStructureComputation (ms)	355	0	355
+Superstep 1 SimpleBFSStructureComputation (ms)	195	0	195
+Superstep 10 SimpleBFSStructureComputation (ms)	100	0	100
+Superstep 11 SimpleBFSStructureComputation (ms)	100	0	100
+Superstep 12 SimpleBFSStructureComputation (ms)	95	0	95
+Superstep 13 SimpleBFSStructureComputation (ms)	94	0	94
+Superstep 14 SimpleBFSStructureComputation (ms)	76	0	76
+Superstep 15 SimpleBFSStructureComputation (ms)	82	0	82
+Superstep 16 SimpleBFSStructureComputation (ms)	84	0	84
+Superstep 2 SimpleBFSStructureComputation (ms)	100	0	100
+Superstep 3 SimpleBFSStructureComputation (ms)	108	0	108
+Superstep 4 SimpleBFSStructureComputation (ms)	149	0	149
+Superstep 5 SimpleBFSStructureComputation (ms)	327	0	327
+Superstep 6 SimpleBFSStructureComputation (ms)	353	0	353
+Superstep 7 SimpleBFSStructureComputation (ms)	565	0	565
+Superstep 8 SimpleBFSStructureComputation (ms)	1134	0	1134
+Superstep 9 SimpleBFSStructureComputation (ms)	167	0	167
+Total (ms)	16215	0	16215
